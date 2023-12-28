@@ -1,7 +1,7 @@
 function numbersDivisibleBy9(input) {
     let n = Number(input[0]);
     let m = Number(input[1]);
-    
+
     let sum = 0;
     let outputNumber = "";
 
@@ -16,4 +16,4 @@ function numbersDivisibleBy9(input) {
     console.log(outputNumber);
 }
 
-numbersDivisibleBy9(["100", "200"])
+numbersDivisibleBy9(["100", "200"]);
